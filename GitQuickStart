@@ -1,0 +1,24 @@
+>>> Github Checkin Quick Start:
+Create a repo in github and set a SSH key
+Test connection: ssh -i sunny -T git@github.com
+The config git to use this key:
+git config core.sshCommand "ssh -i c:/data/code/Ryan/sunny"
+git config user.name "git"
+git config user.email "sunnywu66@yahoo.com"
+
+create a new repository on the command line
+echo "# RyanUSACO" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+//add one remote entry named origin with url //git@github.com:sunnyspace22/RyanUSACO.git
+//you can use this command to add multiple remote entries
+git remote add origin git@github.com:sunnyspace22/RyanUSACO.git
+git push -u origin main
+Or
+git push --set-upstream origin main
+…or push an existing repository from the command line
+git remote add origin git@github.com:sunnyspace22/RyanUSACO.git
+git branch -M main
+git push -u origin main
