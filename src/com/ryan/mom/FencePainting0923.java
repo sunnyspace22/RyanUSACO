@@ -1,6 +1,8 @@
 //http://www.usaco.org/index.php?page=viewproblem2&cpid=567
 //solution: https://usaco.guide/general/input-output?lang=java
-package com.ryan;
+package com.ryan.mom;
+
+import com.ryan.Kattio;
 
 public class FencePainting0923 {
 

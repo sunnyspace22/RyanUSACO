@@ -1,4 +1,6 @@
-package com.ryan;
+package com.ryan.mom;
+
+import com.ryan.Kattio;
 
 public class MixingMilk0930 {
     public static void main(String[] args)

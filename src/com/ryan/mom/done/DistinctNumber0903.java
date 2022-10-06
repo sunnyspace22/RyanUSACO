@@ -1,7 +1,11 @@
-package com.ryan;
+package com.ryan.mom.done;
+
+import com.ryan.Kattio;
 
 import java.io.*;
 import java.util.*;
+
+//done by ryan by 09/09
 
 public class DistinctNumber0903 {
     public static void main(String[] args) {

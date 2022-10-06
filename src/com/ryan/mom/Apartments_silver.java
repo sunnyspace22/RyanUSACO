@@ -1,4 +1,4 @@
-
+package com.ryan.mom;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -13,7 +13,7 @@ import java.util.StringTokenizer;
  */
 
 
-public class Apartments0909 {
+public class Apartments_silver {
 
     int appNum=0, aptNum=0, allowedRange=0, index=0, count=0;
     int[] applicants=null, apartments=null;
@@ -21,7 +21,7 @@ public class Apartments0909 {
 
     public static void main(String[] args){
         long startTime=System.nanoTime();
-        Apartments0909 aptClass=new Apartments0909();
+        Apartments_silver aptClass=new Apartments_silver();
         aptClass.parseFileInput();
         System.out.println(aptClass.match());
         double elapsedTimeInSecond = ((double) (System.nanoTime()-startTime)) / 1_000_000_000;

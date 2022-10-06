@@ -1,4 +1,6 @@
-package com.ryan;
+package com.ryan.mom.done;
+
+import com.ryan.Kattio;
 
 import java.lang.*;
 import java.io.*;
@@ -6,6 +8,8 @@ import java.util.StringTokenizer;
 
 
 //http://www.usaco.org/index.php?page=viewproblem2&cpid=759
+
+//done by ryan at 10/02
 public class BlockedBillboard0923 {
 
     /*

@@ -1,10 +1,14 @@
-package com.ryan;
+package com.ryan.mom.done;
+
+import com.ryan.Kattio;
 
 import java.lang.*;
 import java.io.*;
 import java.util.StringTokenizer;
 
 //http://www.usaco.org/index.php?page=viewproblem2&cpid=663
+
+//Done by Ryan at 10/02
 
 public class SquarePasture0923 {
     //points for rectangle 1

@@ -1,6 +1,11 @@
-package com.ryan;
+package com.ryan.mom.done;
+
+import com.ryan.Kattio;
 
 //https://codeforces.com/contest/1216/problem/C
+
+//done by ryan by 10/02
+
 public class WhiteSheet0923 {
 
     //points for white rectangle

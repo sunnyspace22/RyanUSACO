@@ -1,4 +1,7 @@
->>> Github Checkin Quick Start:
+>>> Github Checkin Quick Start: https://www.atlassian.com/git/tutorials/setting-up-a-repository
+>>> GIT remote setup: https://villagra.info/docs/github-ssh-keys/
+>>> GIT command command: https://dzone.com/articles/top-20-git-commands-with-examples
+
 Create a repo in github and set a SSH key
 Test connection: ssh -i sunny -T git@github.com
 The config git to use this key:
@@ -22,3 +25,18 @@ git push --set-upstream origin main
 git remote add origin git@github.com:sunnyspace22/RyanUSACO.git
 git branch -M main
 git push -u origin main
+
+//show local files different than staged at local repo
+git diff
+//show diff files staged at local repo than remote
+git diff --staged
+//remove a file from git
+git rm [file]
+
+//add upstream other than origin (to do fork)
+git remote add upstream https://github.com/ORIGINAL_OWNER/Spoon-Knife.git
+$ git remote -v
+> origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
+> origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
+> upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (fetch)
+> upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)

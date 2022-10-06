@@ -1,10 +1,10 @@
-package com.ryan;
+package com.ryan.mom;
 
 
 import java.io.*;
 import java.util.*;
 
-public class TeamTicTacToe {
+public class TeamTicTacToe1008 {
     static char[][] board = new char[3][3];
     static int oneCowVictory=0, twoCowVictory=0;
 

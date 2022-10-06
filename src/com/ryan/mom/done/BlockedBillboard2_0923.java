@@ -1,6 +1,10 @@
-package com.ryan;
+package com.ryan.mom.done;
+
+import com.ryan.Kattio;
 
 import java.lang.*;
+
+//done by Ryan by 10/02
 
 public class BlockedBillboard2_0923 {
     static int b1_x1=0, b1_y1 =0, b1_x2 =0, b1_y2 =0;
