@@ -2,6 +2,8 @@ package com.ryan.mom;
 
 import com.ryan.Kattio;
 
+//http://www.usaco.org/index.php?page=viewproblem2&cpid=735
+
 public class LostCow {
 
     public static void main(String[] args)
@@ -21,8 +23,8 @@ public class LostCow {
             }
             else
             {
-                johnStart = johnStart + (distance*direction);
-                totalDistance +=distance;
+                //johnStart = johnStart + (distance*direction);
+                totalDistance +=distance*2;
                 distance = distance * 2;
                 direction = direction * -1;
             }
