@@ -54,4 +54,5 @@ public class WhiteSheet0923 {
     {
         return (x2-x1)*(y2-y1);
     }
+
 }

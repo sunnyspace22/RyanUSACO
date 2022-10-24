@@ -1,6 +1,6 @@
 package com.ryan;
 
-public class MaxMin {
+public class MaxMinRyan {
     public static void main(String[] poopoo)
     {
         Kattio peepee = new Kattio();

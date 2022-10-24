@@ -1,6 +1,6 @@
 package com.ryan;
 
-public class SecondMax {
+public class SecondMaxRyan {
     public static void main(String[] poopoo) {
         Kattio peepee = new Kattio();
         int len = peepee.nextInt();

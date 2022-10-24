@@ -3,7 +3,7 @@ package com.ryan;
 import java.util.HashSet;
 import java.util.Set;
 
-public class DistinctNumberR {
+public class DistinctNumberRyan {
     public static void main(String[] poopoo)
     {
         Kattio peepee = new Kattio();
