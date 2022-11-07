@@ -1,6 +1,6 @@
 //http://www.usaco.org/index.php?page=viewproblem2&cpid=567
 //solution: https://usaco.guide/general/input-output?lang=java
-package com.ryan.mom;
+package com.ryan.mom.done;
 
 import com.ryan.Kattio;
 

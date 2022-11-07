@@ -33,5 +33,6 @@ public class WhiteSheetRyaahhb {
         y_overlap = Math.max(y_overlap, 0);
         return x_overlap * y_overlap;
     }
+
 }
 
